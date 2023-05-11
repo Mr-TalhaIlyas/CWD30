@@ -8,9 +8,11 @@
 ### Pretrined Models @ PyTorch
 
 |Model|Weights|Mean Accuracy (%)|
-|ResNet-101|---|---|
-|ResNext-101|---|---|
-|EfficennetV2|---|---|
-|ViT|---|---|
-|SwinT|---|---|
-|MaxViT|---|---|
+|---|---|---|
+|ResNet-101|||
+|ResNext-101||
+|MovileNetV3|||
+|EfficennetV2|||
+|ViT|||
+|SwinT|||
+|MaxViT|||
