@@ -1,2 +1,5 @@
 # CWD30
-Official Repository for CWD30 Dataset
+
+#### Data Download [Link]() 
+### Global Distribution of Crops in the CWD30 dataset.
+
