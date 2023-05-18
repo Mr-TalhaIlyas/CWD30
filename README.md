@@ -2,7 +2,9 @@
 
 # CWD30
 
+#### [Full Paper](https://arxiv.org/pdf/2305.10084) 
 #### Data Download [Link](https://o365jbnu-my.sharepoint.com/:f:/g/personal/talha_student_jbnu_ac_kr/EsdFSAmsct5KulaAkd7YRYUBJIXhvUcYQ2SzDhp2nB7OWg?e=oprZlS) 
+
 ### Global Distribution of Crops in the CWD30 dataset.
 
 ![alt text](https://github.com/Mr-TalhaIlyas/CWD30/blob/main/screens/map.png)
