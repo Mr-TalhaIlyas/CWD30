@@ -25,11 +25,11 @@ CWD30 comprises over 219,770 high-resolution images of 20 weed species and 10 cr
 
 ### Citation
 ```
-@misc{2305.10084,
-Author = {Talha Ilyas and Dewa Made Sri Arsa and Khubaib Ahmad and Yong Chae Jeong and Okjae Won and Jong Hoon Lee and Hyongsuk Kim},
-Title = {CWD30: A Comprehensive and Holistic Dataset for Crop Weed Recognition in Precision Agriculture},
-Year = {2023},
-Eprint = {arXiv:2305.10084},
+@article{ilyas2023cwd30,
+author={Talha Ilyas and Dewa Made Sri Arsa and Khubaib Ahmad and Yong Chae Jeong and Okjae Won and Jong Hoon Lee and Hyongsuk Kim},
+title={CWD30: A Comprehensive and Holistic Dataset for Crop Weed Recognition in Precision Agriculture},
+year={2023},
+journal={arXiv preprint arXiv:2305.10084},
 }
 ```
 ```
