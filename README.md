@@ -33,5 +33,5 @@ journal={arXiv preprint arXiv:2305.10084},
 }
 ```
 ```
-Paper currently under review
+Paper is currently under review. ;)
 ```
