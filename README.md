@@ -1,5 +1,5 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMr-TalhaIlyas%2FCWD30&count_bg=%2300E7FD&title_bg=%23555555&icon=microsoftonedrive.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Farxiv.org%2Fabs%2F2305.10084&count_bg=%231CD39C&title_bg=%23555555&icon=arxiv.svg&icon_color=%23EB0924&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 # CWD30
 
 #### Full Paper [arXiv](https://arxiv.org/abs/2305.10084) 
