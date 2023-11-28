@@ -12,7 +12,9 @@ CWD30 comprises over 219,770 high-resolution images of 20 weed species and 10 cr
 
 ![alt text](https://github.com/Mr-TalhaIlyas/CWD30/blob/main/screens/map.png)
 
-### Pretrined Models [PyTorch](https://pytorch.org/vision/stable/models.html#classification)
+## MODELS ZOO
+
+### Classification Models
 
 |Model|Weights|Mean Accuracy (%)|Forward Pass (MB)|Weights Size|
 |---|---|---|---|---|
@@ -24,6 +26,14 @@ CWD30 comprises over 219,770 high-resolution images of 20 weed species and 10 cr
 |SwinT|[Link](https://o365jbnu-my.sharepoint.com/:f:/g/personal/talha_student_jbnu_ac_kr/EsdFSAmsct5KulaAkd7YRYUBJIXhvUcYQ2SzDhp2nB7OWg?e=oprZlS)|88.71%|189.46|993MB|
 |MaxViT|[Link](https://o365jbnu-my.sharepoint.com/:f:/g/personal/talha_student_jbnu_ac_kr/EsdFSAmsct5KulaAkd7YRYUBJIXhvUcYQ2SzDhp2nB7OWg?e=oprZlS)|91.45%|389.87|357MB|
 
+### Semantic Segmentation Models
+
+### Instances Segmentation Models
+
+|Model|Data|Weights|PQ|
+|---|---|---|---|
+|MaskRCNN (ResNet-101 FPN backbone)|PhenoBench|[chkpt]()|44.05|
+|MaskRCNN (ResNet-101 FPN backbone)|GrowliFlower|[chkpt]()|56.33|
 
 ### Citation
 ```

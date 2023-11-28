@@ -1,0 +1,36 @@
+experiment:
+    id: maskrcnn_leaves
+    seed: 1324
+
+checkpoint: '/home/user01/data/talha/phenobench/gchkpts/'
+tensorboard: '/home/user01/data/talha/phenobench/glogs/'
+
+in1k_pretrained: False
+pretrained_chkpt: 'None'
+#"/home/user01/data/talha/CWD/chkpts/clf_cwd.resnet50.in1k.pth"
+#'None'
+#'/home/user01/data/talha/phenobench/chkpts/clf_cwd.resnet101.in1k.pth'
+#"/mnt/hdd/sdb/Talha/phenobench/chkpts/clf_inat21.resnet101.in1k.pth"
+
+freeze_backbone: False
+##Data
+data:
+    train: '/home/user01/data/talha/phenobench/data/train/'
+    val: '/home/user01/data/talha/phenobench/data/val/'
+    out: "/home/user01/data/talha/phenobench/results/"
+
+##Training
+train:
+    n_gpus: 1
+    workers: 6 
+    max_epoch: 200
+    batch_size: 12
+    n_classes: 2
+    overfit: False
+    lr: 0.0001
+
+val:
+    nms_th: 0.5
+    prob_th: 0.6
+# tmux new-session -s my_new_session
+# tmux pipe-pane -o 'cat >> /home/user01/data/my_session.log'

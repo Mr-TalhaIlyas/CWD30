@@ -1,0 +1,85 @@
+# Configuration file for trinag model and hyperparameter settings
+# of crop and weed dataset
+
+#'0,1,2,3'
+gpus_to_use: '3'
+DPI: 300
+LOG_WANDB: True
+
+project_name: 'TIP_Rev_Seg'
+experiment_name: 'cwd.beanweed.unet'
+
+# one of the following models
+# segnext, deeplabv3plus, unet, ocr
+selected_model: 'unet'
+
+# encoder_chkpt:  "/home/user01/data/talha/phenobench/chkpts/model.inat.resnet101.in1k.pth"
+encoder_chkpt:  '/home/user01/data/talha/phenobench/chkpts/model.cwd.resnet101.in1k.pth'
+# encoder_chkpt:  '/home/user01/data/talha/phenobench/chkpts/model.inat17.resnet101.in1k.pth'
+#encoder_chkpt:  '/home/user01/data/talha/phenobench/chkpts/model.cwd.mascan.scratch.pth'
+#encoder_chkpt:  "imagenet"
+
+log_directory: "/home/user01/data/talha/CWD/sem_seg/logs/"
+checkpoint_path: "/home/user01/data/talha/CWD/sem_seg/chkpts/"
+
+
+# Data loader parameters
+
+data_dir: "/home/user01/data/talha/CWD/datasets/beanweed/"
+# add sub dirs inside of train/val and test
+sub_directories: ['imgs/', 'lbls/']
+Normalize_data: True
+Shuffle_data: True
+# only for training data
+Augment_data: True
+pin_memory: True
+num_workers: 2
+#6
+num_classes: 3
+img_height: 512
+img_width: 512
+# OCR, SegNext 1024 others 512
+# 4 means output of network is 4 times downsampled
+output_stride: 1
+input_channels: 3
+label_smoothing: 0.0
+batch_size: 8
+WEIGHT_DECAY: 0.00005
+# Regularization SD 0.5 LS 1e-2
+stochastic_drop_path: 3e-1
+layer_scaling_val: 1e-1
+
+# learning rate
+learning_rate: 0.001
+lr_schedule: 'cos'
+epochs: 100 
+warmup_epochs: 3
+# one of 'batch_norm' or 'sync_bn' or 'layer_norm'
+norm_typ: 'sync_bn'
+BN_MOM: 0.9
+SyncBN_MOM: 3e-4
+
+
+# Augmentation Prbabilities should be same legth
+step_epoch:  [0]
+
+geometric_aug: [0.3, 0.3]
+noise_aug:   [0.4, 0.4]
+# Hamburger Parameters
+ham_channels: 512
+put_cheese: True
+
+DUAL: False
+SPATIAL: TRUE
+RAND_INIT: True
+
+MD_S: 1
+MD_D: 512
+MD_R: 64
+
+TRAIN_STEPS: 6
+EVAL_STEPS: 6
+
+INV_T: 1
+BETA: 0.1
+Eta: 0.9

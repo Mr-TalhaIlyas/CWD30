@@ -1,0 +1,159 @@
+sub_classes:
+  [
+    "background",
+    "asian-flatsedge",
+    "bean",
+    "bloodscale-sedge",
+    "cockspur-grass",
+    "cooper-leaf",
+    "corn",
+    "early-barnyard-grass",
+    "fall-panicum",
+    "finger-grass",
+    "foxtail-millet",
+    "goosefoot",
+    "great-millet",
+    "green-foxtail",
+    "green-gram",
+    "henbit",
+    "indian-goosegrass",
+    "livid-pigweed",
+    "nipponicus-sedge",
+    "peanut",
+    "perilla",
+    "poa-annua",
+    "proso-millet",
+    "purslane",
+    "red-bean",
+    "redroot-pigweed",
+    "sesame",
+    "smooth-pigweed",
+    "white-goosefoot",
+  ]
+
+super_classes: [
+"background",
+"broad-leaves",
+"grains",
+"grasses",
+"legumes",
+"oil-seeds",
+"sedges"
+]
+
+views: ['0', '45', '90']
+
+grasses:
+  [
+    "cockspur-grass",
+    "early-barnyard-grass",
+    "fall-panicum",
+    "finger-grass",
+    "green-foxtail",
+    "indian-goosegrass",
+    "poa-annua"
+  ]
+
+broad_leaves:
+  [
+    "cooper-leaf",
+    "goosefoot",
+    "henbit",
+    "livid-pigweed",
+    "purslane",
+    "redroot-pigweed",
+    "smooth-pigweed",
+    "white-goosefoot",
+  ]
+
+sedges:
+  [
+    "asian-flatsedge",
+    "bloodscale-sedge",
+    "nipponicus-sedge"
+  ] 
+
+grains:
+  [
+    "corn",
+    "foxtail-millet",
+    "great-millet",
+    "proso-millet"
+  ]
+
+legumes:
+  [
+    "bean",
+    "green-gram",
+    "peanut",
+    "red-bean"
+  ]
+
+oil_seeds:
+  [
+    "perilla",
+    "sesame",
+  ]
+
+pallet:  
+    - [0, 0, 0]
+    - [102, 205, 170]
+    - [255, 0, 0 ]
+    - [255, 215, 0]
+    - [199, 21, 133]
+    - [0, 255, 0]
+    - [30, 144, 255]
+    - [255, 140, 0]
+    - [46, 139, 87]
+
+# TODO update pallet
+pallet_sub_class:  
+                - [0, 0, 0]
+                - [165, 42, 42]
+                - [0, 192, 0]
+                - [196, 196, 196]
+                - [190, 153, 153]
+                - [180, 165, 180]
+                - [102, 102, 156]
+                - [128, 64, 255]
+                - [140, 140, 200]
+                - [170, 170, 170]
+                - [250, 170, 160]
+                - [96, 96, 96]
+                - [230, 150, 140]
+                - [128, 64, 128]
+                - [110, 110, 110]
+                - [244, 35, 232]
+                - [150, 100, 100]
+                - [70, 70, 70]
+                - [150, 120, 90]
+                - [220, 20, 60]
+                - [128, 128, 128]
+                - [119, 11, 32]
+                - [200, 128, 128]
+                - [255, 255, 255]
+                - [64, 170, 64]
+                - [128, 64, 64]
+                - [70, 130, 180]
+                - [152, 251, 152]
+                - [107, 142, 35]
+                - [0, 170, 30]
+                - [255, 255, 128]
+                - [250, 0, 30]
+                - [220, 220, 220]
+                - [170, 170, 170]
+                - [255, 255, 255]
+                - [0,0, 255]
+                - [0,255, 0]
+                - [255,0, 0]
+
+pallet_sup_class:  
+                - [0, 0, 0]
+                - [0,0, 255]
+                - [0,255, 0]
+                - [255,0, 0]
+
+
+# Grains: "corn", "foxtail-millet", "great-millet", "proso-millet"
+# Legumes: "bean", "green-gram", "peanut", "red-bean"
+# Oilseeds: "perilla", "sesame"
