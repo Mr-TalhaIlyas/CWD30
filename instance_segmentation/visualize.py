@@ -19,6 +19,9 @@ import matplotlib.pyplot as plt
 # Root directory of the project
 ROOT_DIR = os.path.abspath("../")
 
+'''
+Code adapted from: https://github.com/matterport/Mask_RCNN/blob/master/mrcnn/visualize.py
+'''
 
 
 
