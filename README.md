@@ -16,7 +16,7 @@ CWD30 comprises over 219,770 high-resolution images of 20 weed species and 10 cr
 
 <details>
 <summary>Classification Models</summary>
-
+*⚠️NOTE⚠️* We are currently in middle of uploading the weights. All might not be available.
 |Model|Weights|Acc|
 |---|---|---|
 |ResNet-18|[chkpt]()|79.5|
@@ -48,7 +48,7 @@ CWD30 comprises over 219,770 high-resolution images of 20 weed species and 10 cr
 
 <details>
 <summary>Semantic Segmentation Models</summary>
-
+*⚠️NOTE⚠️* We are currently in middle of uploading the weights. All might not be available.
 |Model       |BeanWeed                   |SugarBeet                  |CarrotWeed                 |
 |---         |---                        |---                        |---                        |
 |UNet        |[44.05 mIOU, chkpt]()      |[44.05 mIOU, chkpt]()      |[44.05 mIOU, chkpt]()      |
