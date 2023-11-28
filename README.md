@@ -16,17 +16,45 @@ CWD30 comprises over 219,770 high-resolution images of 20 weed species and 10 cr
 
 ### Classification Models
 
-|Model|Weights|Mean Accuracy (%)|Forward Pass (MB)|Weights Size|
-|---|---|---|---|---|
-|ResNet-101|[Link](https://o365jbnu-my.sharepoint.com/:f:/g/personal/talha_student_jbnu_ac_kr/EsdFSAmsct5KulaAkd7YRYUBJIXhvUcYQ2SzDhp2nB7OWg?e=oprZlS)|88.66%|259.71|487MB|
-|ResNext-101|[Link](https://o365jbnu-my.sharepoint.com/:f:/g/personal/talha_student_jbnu_ac_kr/EsdFSAmsct5KulaAkd7YRYUBJIXhvUcYQ2SzDhp2nB7OWg?e=oprZlS)|89.06%|499.35|994MB|
-|MobileNetV3|[Link](https://o365jbnu-my.sharepoint.com/:f:/g/personal/talha_student_jbnu_ac_kr/EsdFSAmsct5KulaAkd7YRYUBJIXhvUcYQ2SzDhp2nB7OWg?e=oprZlS)|86.29%|70.45|48.5MB|
-|EfficentnetV2|[Link](https://o365jbnu-my.sharepoint.com/:f:/g/personal/talha_student_jbnu_ac_kr/EsdFSAmsct5KulaAkd7YRYUBJIXhvUcYQ2SzDhp2nB7OWg?e=oprZlS)|90.79%|313.34|607MB|
-|ViT|[Link](https://o365jbnu-my.sharepoint.com/:f:/g/personal/talha_student_jbnu_ac_kr/EsdFSAmsct5KulaAkd7YRYUBJIXhvUcYQ2SzDhp2nB7OWg?e=oprZlS)|87.84%|69.62|3.41GB|
-|SwinT|[Link](https://o365jbnu-my.sharepoint.com/:f:/g/personal/talha_student_jbnu_ac_kr/EsdFSAmsct5KulaAkd7YRYUBJIXhvUcYQ2SzDhp2nB7OWg?e=oprZlS)|88.71%|189.46|993MB|
-|MaxViT|[Link](https://o365jbnu-my.sharepoint.com/:f:/g/personal/talha_student_jbnu_ac_kr/EsdFSAmsct5KulaAkd7YRYUBJIXhvUcYQ2SzDhp2nB7OWg?e=oprZlS)|91.45%|389.87|357MB|
+|Model|Weights|Acc|
+|---|---|---|
+|ResNet-18|[chkpt]()|79.5|
+|ResNet-50|[chkpt]()|84.6|
+|ResNet-101|[chkpt]()|81.36|
+|MobileNetv3-S|[chkpt]()|80.5|
+|MobileNetv3-L|[chkpt]()|74.67|
+|EffNet-B0|[chkpt]()|83.2|
+|EffNet-B3|[chkpt]()|83.64|
+|EffNet-B5|[chkpt]()|84.5|
+|ConvNeXt-T|[chkpt]()|85.6|
+|ConvNeXt-M|[chkpt]()|85.9|
+|ConvNeXt-L|[chkpt]()|84.7|
+|ViT-T|[chkpt]()|83.43|
+|ViT-B|[chkpt]()|86.4|
+|CaiT-T|[chkpt]()|85.2|
+|CaiT-S|[chkpt]()|86.9|
+|Swin-T|[chkpt]()|85.59|
+|Swin-B|[chkpt]()|85.3|
+|Swin-L|[chkpt]()|87.0|
+|MaxViT-S|[chkpt]()|86.5|
+|MaxViT-B|[chkpt]()|87.08|
+|CoAtNet-1|[chkpt]()|86.1|
+|CoAtNet-3|[chkpt]()|84.3|
+|EffFormer-L1|[chkpt]()|80.5|
+|EffFormer-L3|[chkpt]()|82.7|
+|EffFormer-L7|[chkpt]()|81.2|
+
 
 ### Semantic Segmentation Models
+
+|Model       |BeanWeed                   |SugarBeet                  |CarrotWeed                 |
+|---         |---                        |---                        |---                        |
+|UNet        |[44.05 mIOU, chkpt]()      |[44.05 mIOU, chkpt]()      |[44.05 mIOU, chkpt]()      |
+|DeepLab v3+ |[56.33 mIOU, chkpt]()      |[56.33 mIOU, chkpt]()      |[56.33 mIOU, chkpt]()      |
+|OCR         |[56.33 mIOU, chkpt]()      |[56.33 mIOU, chkpt]()      |[56.33 mIOU, chkpt]()      |
+|SegNext     |[56.33 mIOU, chkpt]()      |[56.33 mIOU, chkpt]()      |[56.33 mIOU, chkpt]()      |
+
+
 
 ### Instances Segmentation Models
 
