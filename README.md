@@ -1,7 +1,10 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMr-TalhaIlyas%2FCWD30&count_bg=%2300E7FD&title_bg=%23555555&icon=microsoftonedrive.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 # CWD30
-
+<h1 id="cwd30-title">
+  <img src="D:\Papers\Dataset Paper\revision_1_ieee-tip\repo\CWD30\screens\d.png" alt="CWD30 Banner" style="vertical-align: middle; width: 50%; height: auto;">
+  CWD30
+</h1>
 #### Full Paper [arXiv](https://arxiv.org/abs/2305.10084) 
 CWD30 comprises over 219,770 high-resolution images of 20 weed species and 10 crop species, encompassing various growth stages, multiple viewing angles, and environmental conditions. The images were collected from diverse agricultural fields across different geographic locations and seasons, ensuring a representative dataset. 
 #### Data Download [Link](https://o365jbnu-my.sharepoint.com/:f:/g/personal/talha_student_jbnu_ac_kr/EsdFSAmsct5KulaAkd7YRYUBJIXhvUcYQ2SzDhp2nB7OWg?e=oprZlS) 
@@ -12,9 +15,10 @@ CWD30 comprises over 219,770 high-resolution images of 20 weed species and 10 cr
 
 ![alt text](https://github.com/Mr-TalhaIlyas/CWD30/blob/main/screens/map.png)
 
-## MODELS ZOO
+## MODEL ZOO
 
-### Classification Models
+<details>
+<summary>Classification Models</summary>
 
 |Model|Weights|Acc|
 |---|---|---|
@@ -43,9 +47,10 @@ CWD30 comprises over 219,770 high-resolution images of 20 weed species and 10 cr
 |EffFormer-L1|[chkpt]()|80.5|
 |EffFormer-L3|[chkpt]()|82.7|
 |EffFormer-L7|[chkpt]()|81.2|
+</details>
 
-
-### Semantic Segmentation Models
+<details>
+<summary>Semantic Segmentation Models</summary>
 
 |Model       |BeanWeed                   |SugarBeet                  |CarrotWeed                 |
 |---         |---                        |---                        |---                        |
@@ -53,15 +58,17 @@ CWD30 comprises over 219,770 high-resolution images of 20 weed species and 10 cr
 |DeepLab v3+ |[56.33 mIOU, chkpt]()      |[56.33 mIOU, chkpt]()      |[56.33 mIOU, chkpt]()      |
 |OCR         |[56.33 mIOU, chkpt]()      |[56.33 mIOU, chkpt]()      |[56.33 mIOU, chkpt]()      |
 |SegNext     |[56.33 mIOU, chkpt]()      |[56.33 mIOU, chkpt]()      |[56.33 mIOU, chkpt]()      |
+</details>
 
-
-
-### Instances Segmentation Models
+<details>
+<summary>Instances Segmentation Models</summary>
 
 |Model|Data|Weights|PQ|
 |---|---|---|---|
 |MaskRCNN (ResNet-101 FPN backbone)|PhenoBench|[chkpt]()|44.05|
 |MaskRCNN (ResNet-101 FPN backbone)|GrowliFlower|[chkpt]()|56.33|
+</details>
+
 
 ### Citation
 ```
