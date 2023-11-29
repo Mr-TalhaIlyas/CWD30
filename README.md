@@ -53,10 +53,10 @@ CWD30 comprises over 219,770 high-resolution images of 20 weed species and 10 cr
 
 |Model       |BeanWeed                   |SugarBeet                  |CarrotWeed                 |
 |---         |---                        |---                        |---                        |
-|UNet        |[44.05 mIOU, chkpt]()      |[44.05 mIOU, chkpt]()      |[44.05 mIOU, chkpt]()      |
-|DeepLab v3+ |[56.33 mIOU, chkpt]()      |[56.33 mIOU, chkpt]()      |[56.33 mIOU, chkpt]()      |
-|OCR         |[56.33 mIOU, chkpt]()      |[56.33 mIOU, chkpt]()      |[56.33 mIOU, chkpt]()      |
-|SegNext     |[56.33 mIOU, chkpt]()      |[56.33 mIOU, chkpt]()      |[56.33 mIOU, chkpt]()      |
+|UNet        |[72.49 mIOU, chkpt]()      |[85.47 mIOU, chkpt]()      |[78.32 mIOU, chkpt]()      |
+|DeepLab v3+ |[78.03 mIOU, chkpt]()      |[86.02 mIOU, chkpt]()      |[83.16 mIOU, chkpt]()      |
+|OCR         |[79.51 mIOU, chkpt]()      |[87.34 mIOU, chkpt]()      |[86.53 mIOU, chkpt]()      |
+|SegNext     |[83.90 mIOU, chkpt]()      |[87.65 mIOU, chkpt]()      |[88.54 mIOU, chkpt]()      |
 </details>
 
 <details>
