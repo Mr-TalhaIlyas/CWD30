@@ -51,8 +51,8 @@ CWD30 comprises over 219,770 high-resolution images of 20 weed species and 10 cr
   
 |ReNet-101|Weights|Acc.|
 |---|---|---|
-|[iNat21](https://github.com/visipedia/inat_comp/tree/master/2021)|[chkpt]()|<80%|
-|[iNat17](https://github.com/visipedia/inat_comp/tree/master/2017)|[chkpt]()|60.41%|
+|[iNat21](https://github.com/visipedia/inat_comp/tree/master/2021)|✅[chkpt](https://o365jbnu-my.sharepoint.com/:u:/g/personal/talha_student_jbnu_ac_kr/Eej_bdo_W4VMjG6GHfr3YS8B3sIJKeN32xXGI5rr4O_ajg?e=0N96wn)|<80%|
+|[iNat17](https://github.com/visipedia/inat_comp/tree/master/2017)|✅[chkpt](https://o365jbnu-my.sharepoint.com/:u:/g/personal/talha_student_jbnu_ac_kr/EeeOI8gv3mxAg7dx6HXVanQBp_5dq4BFDpyyJ5CxQ-KpGQ?e=X4uNub)|60.41%|
 
 </details>
 
@@ -72,6 +72,9 @@ CWD30 comprises over 219,770 high-resolution images of 20 weed species and 10 cr
 |DeepLab v3+ |[78.03 mIOU, chkpt]()      |[86.02 mIOU, chkpt]()      |✅[83.16 mIOU, chkpt](https://o365jbnu-my.sharepoint.com/:u:/g/personal/talha_student_jbnu_ac_kr/EVkfmjyMmapNii0jRxncs5UB4Ipi3qYiMNPEF4lQc6g_-w?e=9LtjUe)      |
 |OCR         |[79.51 mIOU, chkpt]()      |[87.34 mIOU, chkpt]()      |✅[86.53 mIOU, chkpt](https://o365jbnu-my.sharepoint.com/:u:/g/personal/talha_student_jbnu_ac_kr/EQvrRiTSwBlBniZGkYicFl8Bf4pUPhLyJeBWCUD6LOCW6Q?e=hWyD5E)      |
 |SegNext     |[83.90 mIOU, chkpt]()      |[87.65 mIOU, chkpt]()      |✅[88.54 mIOU, chkpt](https://o365jbnu-my.sharepoint.com/:u:/g/personal/talha_student_jbnu_ac_kr/EdI8iQLqhX9LvgTKAFGyHMEBhqc4wcBW7yOVNKb9q78j3A?e=AvJhty)      |
+
+✅[MSCAN backbone SegNext](https://o365jbnu-my.sharepoint.com/:u:/g/personal/talha_student_jbnu_ac_kr/EQdev4A2alhOjhFLw5hxoOwBkIfW6tTD_RD9ElF1AqpvEA?e=s8D7oi)
+
 </details>
 
 <details>
