@@ -68,10 +68,10 @@ CWD30 comprises over 219,770 high-resolution images of 20 weed species and 10 cr
 
 |Model       |BeanWeed                   |SugarBeet                  |CarrotWeed                 |
 |---         |---                        |---                        |---                        |
-|UNet        |[72.49 mIOU, chkpt]()      |[85.47 mIOU, chkpt]()      |[78.32 mIOU, chkpt]()      |
-|DeepLab v3+ |[78.03 mIOU, chkpt]()      |[86.02 mIOU, chkpt]()      |[83.16 mIOU, chkpt]()      |
-|OCR         |[79.51 mIOU, chkpt]()      |[87.34 mIOU, chkpt]()      |[86.53 mIOU, chkpt]()      |
-|SegNext     |[83.90 mIOU, chkpt]()      |[87.65 mIOU, chkpt]()      |[88.54 mIOU, chkpt]()      |
+|UNet        |✅[72.49 mIOU, chkpt](https://o365jbnu-my.sharepoint.com/:u:/g/personal/talha_student_jbnu_ac_kr/EaHpmYLSs6dJmfVMlp4wjMwBqnnAJQz4QoskdSeKyN_mWw?e=iQ1dCA)     |✅[85.47 mIOU, chkpt](https://o365jbnu-my.sharepoint.com/:u:/g/personal/talha_student_jbnu_ac_kr/EZv7lWyh8sJJngFz3mhEfegBpxhEgBENA1UYYOmLw7OboA?e=02UuxA)      |✅[78.32 mIOU, chkpt](https://o365jbnu-my.sharepoint.com/:u:/g/personal/talha_student_jbnu_ac_kr/ESV2mP0mfqBEqXf4U0JYnVQBPgWujDMlU4ybhSdDtrHW9g?e=eDhpcW)      |
+|DeepLab v3+ |[78.03 mIOU, chkpt]()      |[86.02 mIOU, chkpt]()      |✅[83.16 mIOU, chkpt](https://o365jbnu-my.sharepoint.com/:u:/g/personal/talha_student_jbnu_ac_kr/EVkfmjyMmapNii0jRxncs5UB4Ipi3qYiMNPEF4lQc6g_-w?e=9LtjUe)      |
+|OCR         |[79.51 mIOU, chkpt]()      |[87.34 mIOU, chkpt]()      |✅[86.53 mIOU, chkpt](https://o365jbnu-my.sharepoint.com/:u:/g/personal/talha_student_jbnu_ac_kr/EQvrRiTSwBlBniZGkYicFl8Bf4pUPhLyJeBWCUD6LOCW6Q?e=hWyD5E)      |
+|SegNext     |[83.90 mIOU, chkpt]()      |[87.65 mIOU, chkpt]()      |✅[88.54 mIOU, chkpt](https://o365jbnu-my.sharepoint.com/:u:/g/personal/talha_student_jbnu_ac_kr/EdI8iQLqhX9LvgTKAFGyHMEBhqc4wcBW7yOVNKb9q78j3A?e=AvJhty)      |
 </details>
 
 <details>
@@ -83,8 +83,8 @@ Access dataset via:
 
 |Model|Data|Weights|PQ|
 |---|---|---|---|
-|MaskRCNN (ResNet-101 FPN backbone)|PhenoBench|[chkpt](https://o365jbnu-my.sharepoint.com/:u:/g/personal/talha_student_jbnu_ac_kr/EZsslt1DqAlGnNLFPX67AAABcyLAQOayNRM_K_Me-yyCeA?e=J2eWBy)|44.05|
-|MaskRCNN (ResNet-101 FPN backbone)|GrowliFlower|[chkpt](https://o365jbnu-my.sharepoint.com/:u:/g/personal/talha_student_jbnu_ac_kr/EUVXn6Az9fxEjgsCHJA4BMUB5O-S0x0U_C22NP__-AT6aQ?e=uFPxbr)|56.33|
+|MaskRCNN (ResNet-101 FPN backbone)|PhenoBench|✅[chkpt](https://o365jbnu-my.sharepoint.com/:u:/g/personal/talha_student_jbnu_ac_kr/EZsslt1DqAlGnNLFPX67AAABcyLAQOayNRM_K_Me-yyCeA?e=J2eWBy)|44.05|
+|MaskRCNN (ResNet-101 FPN backbone)|GrowliFlower|✅[chkpt](https://o365jbnu-my.sharepoint.com/:u:/g/personal/talha_student_jbnu_ac_kr/EUVXn6Az9fxEjgsCHJA4BMUB5O-S0x0U_C22NP__-AT6aQ?e=uFPxbr)|56.33|
 </details>
 
 
