@@ -16,6 +16,7 @@ CWD30 comprises over 219,770 high-resolution images of 20 weed species and 10 cr
 
 <details>
 <summary>Classification Models</summary>
+
 ⚠️NOTE⚠️ We are currently in middle of uploading the weights. All might not be available.
 
 |Model|Weights|Acc|
@@ -45,10 +46,24 @@ CWD30 comprises over 219,770 high-resolution images of 20 weed species and 10 cr
 |EffFormer-L1|[chkpt]()|80.5|
 |EffFormer-L3|[chkpt]()|82.7|
 |EffFormer-L7|[chkpt]()|81.2|
+
+### Pretrained Weights on iNaturalist
+  
+|ReNet-101|Weights|Acc.|
+|---|---|---|
+|[iNat21](https://github.com/visipedia/inat_comp/tree/master/2021)|[chkpt]()|<80%|
+|[iNat17](https://github.com/visipedia/inat_comp/tree/master/2017)|[chkpt]()|60.41%|
+
 </details>
 
 <details>
 <summary>Semantic Segmentation Models</summary>
+
+  Access dataset via:
+  * [Sugar Beet](https://www.ipb.uni-bonn.de/data/sugarbeets2016/)
+  * [Carrot Weed](https://github.com/cwfid/dataset)
+  * [Bean Weed](https://o365jbnu-my.sharepoint.com/personal/talha_student_jbnu_ac_kr/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Ftalha%5Fstudent%5Fjbnu%5Fac%5Fkr%2FDocuments%2FDatasets%2FBean%20UDA)
+  
 ⚠️NOTE⚠️ We are currently in middle of uploading the weights. All might not be available.
 
 |Model       |BeanWeed                   |SugarBeet                  |CarrotWeed                 |
@@ -61,6 +76,10 @@ CWD30 comprises over 219,770 high-resolution images of 20 weed species and 10 cr
 
 <details>
 <summary>Instances Segmentation Models</summary>
+
+Access dataset via:
+* [PhenoBench](https://www.phenobench.org/)
+* [GrowliFlower](https://rs.ipb.uni-bonn.de/data/growliflower/)
 
 |Model|Data|Weights|PQ|
 |---|---|---|---|
