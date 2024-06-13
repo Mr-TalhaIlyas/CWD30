@@ -1,6 +1,6 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMr-TalhaIlyas%2FCWD30&count_bg=%2300E7FD&title_bg=%23555555&icon=microsoftonedrive.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-# CWD30
+# CWD30 | [Project Page](https://cwd-30.github.io/cwd-30/)
 
 #### Full Paper [arXiv](https://arxiv.org/abs/2305.10084) 
 CWD30 comprises over 219,770 high-resolution images of 20 weed species and 10 crop species, encompassing various growth stages, multiple viewing angles, and environmental conditions. The images were collected from diverse agricultural fields across different geographic locations and seasons, ensuring a representative dataset. 
