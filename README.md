@@ -93,13 +93,14 @@ Access dataset via:
 
 ### Citation
 ```
-@article{ilyas2023cwd30,
-  title={CWD30: A Comprehensive and Holistic Dataset for Crop Weed Recognition in Precision Agriculture},
-  author={Ilyas, Talha and Arsa, Dewa Made Sri and Ahmad, Khubaib and Jeong, Yong Chae and Won, Okjae and Lee, Jong Hoon and Kim, Hyongsuk},
-  journal={arXiv preprint arXiv:2305.10084},
-  year={2023}
+@article{ilyas2025cwd30,
+  title={CWD30: A new benchmark dataset for crop weed recognition in precision agriculture},
+  author={Ilyas, Talha and Arsa, Dewa Made Sri and Ahmad, Khubaib and Lee, Jonghoon and Won, Okjae and Lee, Hyeonsu and Kim, Hyongsuk and Park, Dong Sun},
+  journal={Computers and Electronics in Agriculture},
+  volume={229},
+  pages={109737},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
-```
-Paper is currently under review. ;)
-```
+
