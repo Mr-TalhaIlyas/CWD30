@@ -2,7 +2,7 @@
 
 # CWD30 | [Project Page](https://cwd-30.github.io/cwd-30/)
 
-#### Full Paper [arXiv](https://arxiv.org/abs/2305.10084) 
+#### Full Paper [COMPAG](https://www.sciencedirect.com/science/article/pii/S0168169924011281) 
 CWD30 comprises over 219,770 high-resolution images of 20 weed species and 10 crop species, encompassing various growth stages, multiple viewing angles, and environmental conditions. The images were collected from diverse agricultural fields across different geographic locations and seasons, ensuring a representative dataset. 
 #### Data Download [Link](https://cwd-30.github.io/cwd-30/download.html)
 
